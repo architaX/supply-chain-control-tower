@@ -1,40 +1,51 @@
-**Supply Chain Control Tower & Resilience Dashboard
-Project Overview**
+# Supply Chain Control Tower & Resilience Dashboard
 
-This project simulates a real-world Supply Chain Control Tower designed to monitor supplier performance, delivery reliability, and inventory capital exposure.
+## **Project Overview**
 
-The objective was to build an end-to-end analytics workflow covering data preparation, SQL-based business logic implementation, star schema modeling, KPI engineering using DAX, and executive-level dashboard development in Power BI.
-**
-Technology Stack**
+This project simulates a Supply Chain Control Tower to analyze supplier performance, delivery reliability, and inventory position.
 
-SQL Server – Business queries, joins, aggregations, KPI logic
+The solution was built using a structured workflow:
 
-Power BI – Data modeling, DAX measures, dashboard design
+- Created realistic supply chain datasets in Excel  
+- Performed business analysis using SQL Server  
+- Built a star schema data model in Power BI  
+- Developed KPIs using DAX  
+- Designed an executive dashboard for performance monitoring  
 
-Excel – Dataset preparation and scenario simulation
+---
 
-Star Schema Design – Fact and dimension modeling
+## **Technology Used**
 
-**Key Performance Indicators**
+### **SQL Server**
+- Joins between fact and dimension tables  
+- Aggregations and grouped analysis  
+- Delivery delay and stock calculations  
 
-OTIF (On-Time-In-Full Percentage)
+### **Power BI**
+- One-to-many relationship modeling  
+- DAX measures for KPI calculation  
+- Interactive dashboard design  
 
-Average Supplier Delay
+### **Excel**
+- Dataset creation  
+- Scenario simulation (late suppliers and stock imbalances)  
 
-Net Stock Position
+---
 
-Inventory Capital Exposure by Category
+## **Key KPIs Implemented**
 
-Purchase vs Sales Volume
+- **OTIF (On-Time-In-Full Percentage)**
+- **Average Supplier Delivery Delay**
+- **Net Stock Position (Purchases – Sales)**
+- **Inventory Value by Category**
+- **Purchase vs Sales Transaction Count**
 
-**Business Insights**
+---
 
-Identified suppliers contributing to delivery performance degradation
+## **Business Analysis Performed**
 
-Quantified operational resilience using OTIF and delay variance
-
-Measured capital tied up in high-value inventory categories
-
-Built decomposition tree analysis for root cause identification
-
-Designed interactive filtering for supplier, location, and category analysis
+- Identified suppliers with high average delivery delays  
+- Calculated OTIF to measure delivery reliability  
+- Analyzed inventory exposure by product category  
+- Detected negative stock situations to simulate stockout risk  
+- Used decomposition tree to break down OTIF by supplier and category  
