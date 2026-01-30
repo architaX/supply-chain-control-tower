@@ -1,0 +1,11 @@
+ProductID,ProductName,Category,UnitCost,SalesPrice,MinStockLevel
+101,Steel Rod,Raw Material,500,750,100
+102,Plastic Casing,Component,120,250,200
+103,Circuit Board,Electronics,900,1500,80
+104,Textile Roll,Raw Material,300,600,150
+105,Packaging Box,Packaging,40,100,500
+106,Copper Wire,Electronics,200,400,120
+107,Rubber Seal,Component,50,150,300
+108,Microchip,Electronics,1500,2500,60
+109,Aluminum Sheet,Raw Material,450,700,100
+110,Control Panel,Electronics,2000,3500,40
