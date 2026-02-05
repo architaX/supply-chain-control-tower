@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+gx/uncommitted/
+gx/expectations/.ge_store_backend_id
+*.joblib
+.env
+venv/
+*.pyc
+.env
+.DS_Store

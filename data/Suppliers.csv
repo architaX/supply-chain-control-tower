@@ -1,11 +1,11 @@
 SupplierID,SupplierName,Location,PaymentTerms
-1,Alpha Metals,Mumbai,Net 30
-2,Beta Plastics,Chennai,Net 45
-3,Gamma Textiles,Delhi,Net 30
-4,Delta Components,Bangalore,Net 60
-5,Epsilon Packaging,Pune,Net 30
-6,Zeta Electronics,Hyderabad,Net 45
-7,Theta Logistics,Kolkata,Net 30
-8,Omega Raw Materials,Ahmedabad,Net 60
-9,Sigma Supplies,Jaipur,Net 30
-10,Nova Industries,Coimbatore,Net 45
+1,Supplier A,Mumbai,Net 30
+2,Supplier B,Delhi,Net 45
+3,Supplier C,Bangalore,Net 60
+4,Supplier D,Chennai,Net 30
+5,Supplier E,Hyderabad,Net 45
+6,Supplier F,Pune,Net 60
+7,Supplier G,Ahmedabad,Net 30
+8,Supplier H,Kolkata,Net 45
+9,Supplier I,Surat,Net 60
+10,Supplier J,Jaipur,Net 30
