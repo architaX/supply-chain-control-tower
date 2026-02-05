@@ -5,6 +5,8 @@ This project simulates a real-world Supply Chain Control Tower designed to monit
 
 The architecture is a hybrid analytical system: it utilizes a Python-based backend for real-time data validation and ML-driven risk prediction, paired with a comprehensive Power BI dashboard for executive-level business intelligence and root-cause analysis.
 
+
+
 ## Technology Stack
 - **Data Engineering:** Python, FastAPI, and Great Expectations (v1.x) for automated validation.
 - **Machine Learning:** Scikit-Learn (Logistic Regression) for predictive risk modeling.
@@ -15,7 +17,7 @@ The architecture is a hybrid analytical system: it utilizes a Python-based backe
 ## Key Performance Indicators (KPIs)
 - **OTIF (On-Time In-Full Percentage):** Implemented via DAX and Python logic to measure delivery reliability.
 - **Average Supplier Delay:** Quantifying lead-time variance across the supply base.
-- **Net Stock Position:** Real-time monitoring of inventory levels.
+- **Net Stock Position:** Real-time monitoring of inventory levels (Purchases vs. Sales).
 - **Inventory Capital Exposure:** Measuring capital tied up in high-value categories.
 - **Supplier Risk Score:** ML-driven classification (High/Low Risk) based on historical delay variance.
 
@@ -24,6 +26,8 @@ The architecture is a hybrid analytical system: it utilizes a Python-based backe
 - **Operational Resilience:** Quantified resilience using OTIF metrics and delay variance analysis.
 - **Financial Optimization:** Measured capital exposure to identify tied-up liquidity in high-value inventory.
 - **Interactive Analysis:** Designed multi-dimensional filtering for supplier, location, and category-level insights.
+
+
 
 ## Project Structure
 - `data/`: Automated transaction generation and star schema datasets.
@@ -35,7 +39,7 @@ The architecture is a hybrid analytical system: it utilizes a Python-based backe
 
 ## Execution Instructions
 1. **Clone the repository:**
-   git clone https://github.com/YOUR_USERNAME/Supply-Chain-Control-Tower.git
+   git clone https://github.com/architaX/supply-chain-control-tower.git
 2. **Setup Environment:**
    pip install -r requirements.txt
 3. **Data & ML Pipeline:**
